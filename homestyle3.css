@@ -1,0 +1,606 @@
+
+   
+
+
+* {
+    
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+nav {
+    background-color: #29293e;
+    height: 105px;
+    width: 100%;
+    padding: 4px;
+    
+    
+    
+}
+
+                     /*IMAGES*/
+.image1 {
+    object-fit: cover;
+    border-radius: 20px;
+    float: left;
+    margin: 10px;
+    
+}
+.image1:hover{
+    box-shadow: 0px 2px 10px 0 black;
+}
+
+.image2 {                  /*background image*/
+    width:100%;
+    height: 550px;
+    
+}
+
+/*Body images*/
+
+.image3 {
+    margin-left: 50%;
+    margin-top: 7%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.image3:hover{
+    box-shadow: 0px 2px 10px 0 black;
+    transition: 0.3s;
+}
+
+video {
+   
+    margin-top: -70%;
+    margin-left: 11%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+video:hover{
+    box-shadow: 0px 2px 10px 0 black;
+    transition: 0.3s;
+}
+
+
+.images {
+    margin-left: 9%;
+    margin-top: 3%;
+    margin-right: 8%;
+
+}
+.images:hover{
+    box-shadow: 0px 2px 10px 0 black;
+    transition: 0.3s;
+}
+.map1 {
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-right: 33%;
+    border: 2px solid;
+    border-radius: 10px
+}
+.map1:hover{
+    box-shadow: 0px 2px 10px 0 black;
+    transition: 0.3s;
+}
+
+/*check-button coding for when viewed in phone*/
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+nav ul {
+    float: right;
+    margin-right: 1px;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding:7px 10px;
+    border-radius: 5px;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #29293e;
+    border-radius: 10px 10px;
+
+  }
+   nav ul li ul li a{
+    padding: 5px 25px;
+    margin-left: -60%;
+  
+  }
+  nav ul li:hover ul{
+      display: block;
+      margin: 2px;
+  }
+  nav ul li ul li{
+
+    line-height: 1;
+    width: 90px;
+    border-radius: 5px;
+    padding: 12px;
+    display: block;
+    
+  }
+ 
+
+  nav ul li ul li a:hover{
+    background-color: #34a851;
+  }
+
+  nav ul li a:hover{
+    background-color: #34a851;
+  }
+    
+  a.active3,a:hover{
+      background: #49cf6a;
+      transition: 0.3s;
+  }
+    
+
+  
+body {
+    background-color: white;
+    
+}
+
+
+.background-image h1 {
+    top: 52%;
+    left: 27%;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: rgb(151, 156, 159);
+    
+    
+   
+}
+
+hr {
+    width: 80%;
+    height: 4px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    background-color: black;
+}
+
+.para1 {
+   margin-left: 50%;
+   margin-right: 10%;
+   font-size: 16px;
+   font-family: sans-serif;
+}
+
+h2{
+    margin-left: 50%;
+    margin-bottom: 2%;
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 10%;
+    margin-left: 11%;
+    margin-bottom: 3%;
+    font-size: 24px;
+}
+
+
+.circlelist,ul li {
+    list-style-type: circle;
+    font-family: sans-serif;
+    margin-left: 4%;
+    font-size: 16px;
+    margin-top: 1%;
+
+}
+
+ /*Jump to top arrow*/
+
+ .top{
+    border: 3px solid black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -3%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+}
+a.top:hover {
+    background-color: white;
+    box-shadow: 0 2px 7px 0 black;
+}
+
+.booking{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    margin-top: -3.5%;
+    border: 3px solid black;
+    padding:  20px 20px;
+    border-radius: 8px;
+    background-color: #29293e;
+  }
+
+
+
+
+
+/*Footer*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+
+  }
+  
+  @media(max-height:800px)
+  {
+    footer{
+        position: static;
+    }
+
+}
+.footer1{
+    background-color:#29293e;
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+
+}
+.footer-left,.footer-center,.footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-left{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -13.5%;
+    color: white;
+}
+.footer-left h3 span {
+    font-size: 16.5px;
+    margin: 0;
+    color: #49cf6a;
+}
+.footer-left h3{
+    font-size: 16.5px;
+}
+
+.footer-companyname{
+    color: white;
+    font-size: 14px;
+font-weight: normal;
+    margin: 0;
+}
+.footer-center{
+    width: auto;
+    margin-left:9%;
+}
+.footer-center svg{
+    background-color:black ;
+    color: white;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+.footer-center svg.xmlns{
+    font-size: 16px;
+    line-height: 38px;
+}
+.footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+.footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:2 ;
+
+}
+.footer-center p a{
+    color:lightblue;
+    text-decoration: none;  
+}
+.footer-right{
+    width: 30%;
+    margin-left:11%;
+}
+
+.footer-companyabout{
+    line-height: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-companyabout span{
+    display: block;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-icons{
+    margin-top: 25px;
+}
+.footer-icons a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color:black ;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.footer-icons a:hover{
+    background-color: rgb(181, 179, 179);
+}
+
+
+/*start of media tags*/
+
+
+@media (max-width: 1200px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .checkbtn {
+        display: block;
+        
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 105px;
+        left: -190%;         /*it comes from the left side*/
+        text-align: center;
+        transition: all .5s;
+        
+    }
+
+    
+    nav{
+        width: 100%;
+    }
+   
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;       /*gets it under each other*/
+    }
+    nav ul li a {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    a:hover, a.active {
+        color: white;
+    }
+    #check:checked ~ ul {
+        left: 0px;
+        
+    }
+   
+    .background-image{
+        width: 100%;
+      
+
+        
+    }
+    .background-image h1{
+        font-size: 45px;
+        width: 90%;
+        text-align: center;
+        margin-left: -28%;
+        margin-top: 13%;
+        z-index: -1;
+       
+        
+    }
+ 
+
+    /*section1*/
+    .section1{
+        width: 100%;
+        margin-left: -20%;
+    }
+ 
+    /*section2*/
+     .section2 video{
+        margin-top: 5%;
+        margin-left: 25%;
+     }
+     .image3{
+        margin-left: 20%;
+     }
+    
+     .map1{
+        margin-left: 25%;
+        margin-right: 24%;
+     }
+     .images{
+        margin-right: -10%;
+     }
+    .circlelist{
+        margin: 10%;
+    }
+  
+    /*footer*/
+    body {
+        overflow-x: hidden;
+    }
+    footer {
+        position: relative!important;
+        bottom: unset!important;
+        max-width: calc(100% + 60px)!important;
+        margin-left: -30px!important;
+        padding: 30px!important;
+    }
+   .footer-left,.footer-center,.footer-right {
+       display: block;
+       width: 100%;
+       margin-left: 0;
+       margin-top: 20px;
+       padding: 0;
+       text-align: center;
+   }
+  .footer-center {
+       margin-top: 10px;
+   }
+ .footer-right {
+       margin-top: 20px;
+   }
+    
+    
+
+}
+
+/*Phone View*/
+
+@media (max-width: 600px) {
+    .checkbtn {
+        display: block;
+        
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;       /*gets it under each other*/
+    }
+    nav ul li a {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    a:hover, a.active {
+        color: white;
+    }
+    #check:checked ~ ul {
+        left: 0px;
+    }
+    
+    
+    
+    .background-image{
+        width: 100%;
+        z-index: -1;
+
+        
+    }
+    .background-image h1{
+        font-size: 45px;
+        width: 90%;
+        text-align: center;
+        margin-left: -28%;
+        margin-top: 13%;
+        z-index: -1;
+        
+    }
+ 
+
+    /*section1*/
+    .section1{
+        width: 100%;
+        margin-left: -20%;
+    }
+ 
+    /*section2*/
+     .section2 video{
+        margin-top: 5%;
+        margin-left: 5%;
+     }
+     .image3{
+        margin-left: 1%;
+     }
+    
+     .map1{
+        margin-left: 3%;
+        margin-right: 22%;
+     }
+   
+  /*footer*/
+    body {
+        overflow-x: hidden;
+    }
+    footer {
+        position: relative!important;
+        bottom: unset!important;
+        max-width: calc(100% + 60px)!important;
+        margin-left: -30px!important;
+        padding: 30px!important;
+    }
+   .footer-left,.footer-center,.footer-right {
+       display: block;
+       width: 100%;
+       margin-left: 0;
+       margin-top: 20px;
+       padding: 0;
+       text-align: center;
+   }
+  .footer-center {
+       margin-top: 10px;
+   }
+ .footer-right {
+       margin-top: 20px;
+   }
+   
+    .footer1{
+        width: 105%;
+    }
+    nav{
+        width: 100%;
+    }
+    
+
+}
+

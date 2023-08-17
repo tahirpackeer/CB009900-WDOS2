@@ -1,0 +1,281 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+   
+    
+}
+
+.image1 {
+  object-fit: cover;
+  border-radius: 20px;
+  float: left;
+  margin: 10px;
+  
+}
+.image1:hover{
+box-shadow: 0px 2px 10px 0 black;
+}
+
+/*Kosgoda link*/
+.image2 {
+border-radius: 20px;
+margin-left: 21%;
+margin-top: 10%;
+border: 3px solid black;
+}
+.image2:hover {
+box-shadow: 0 2px 15px 0px black;
+transition: 0.3s;
+}
+a.link1:hover {
+background-color: #dedef1;
+}
+.background-image h1{
+top: 65%;
+left: 28.5%;
+position: absolute;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(0, 0, 0);
+font-weight: bold;
+background-color: white;
+border-radius: 10px;
+opacity: 80%;
+}
+
+
+/*Bentota link*/
+
+.image3 {
+border-radius: 20px;
+margin-left: 22%;
+margin-right: 19%;
+margin-top: -24.2%;
+border: 3px solid black;
+float: right;
+}
+.image3:hover {
+box-shadow: 0 2px 15px 0px black;
+transition: 0.3s;
+}
+
+.background-image1 h1{
+top: 65%;
+left: 61%;
+position: absolute;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(0, 0, 0);
+font-weight: bold;
+background-color: white;
+border-radius: 10px;
+opacity: 80%;
+}
+
+
+body{
+background-color: #dedef1;
+}
+
+nav {
+    background-color:#29293e;
+    height: 105px;
+    width: 100%;
+    padding: 4px;
+    
+    
+}
+nav ul {
+    float: right;
+    margin-right: 9px;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    
+}
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding:6px 12px;
+    border-radius: 5px;
+    
+}
+nav ul li ul{
+  position: absolute;
+  display: none;
+  background-color:#29293e;
+  border-radius: 0px 0px 10px 10px;
+}
+nav ul li:hover ul{
+    display: block;
+    
+}
+
+nav ul li ul li{
+  line-height: 1;
+  width: 100px;
+  border-radius: 7px;
+  padding: 12px;
+  display: block;
+  
+}
+
+
+
+nav ul li a:hover{
+  background-color: #34a851;
+}  
+
+a.active5,a:hover{
+    background-color: #49cf6a;
+    transition: 0.3s;
+}
+
+ /*Jump to top arrow*/
+
+ .top{
+  border: 3px solid black;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  float: right;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  margin-right: 5%;
+}
+a.top:hover {
+  background-color: white;
+  box-shadow: 0 2px 7px 0 black;
+}
+
+
+/*Footer*/
+
+footer{
+  position: relative;
+  bottom: 0;
+
+}
+
+
+
+.footer1{
+  background-color:#29293e;
+  box-sizing: border-box;
+  text-align: left;
+  font: bold 16px;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+
+}
+.footer-left,.footer-center,.footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-left{
+  width: 30%;
+  margin-left: 70%;
+  margin-top: -13.5%;
+  color: white;
+}
+.footer-left h3 span {
+  font-size: 16.5px;
+  margin: 0;
+  color: #49cf6a;
+}
+.footer-left h3{
+  font-size: 16.5px;
+}
+
+.footer-companyname{
+  color: white;
+  font-size: 14px;
+font-weight: normal;
+  margin: 0;
+}
+.footer-center{
+  width: auto;
+  margin-left:9%;
+}
+.footer-center svg{
+  background-color:black ;
+  color: white;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+.footer-center svg.xmlns{
+  font-size: 16px;
+  line-height: 38px;
+}
+.footer-center p{
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  margin: 0;
+}
+.footer-center p span{
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height:2 ;
+
+}
+.footer-center p a{
+  color:lightblue;
+  text-decoration: none;  
+}
+.footer-right{
+  width: 30%;
+  margin-left:11%;
+}
+
+.footer-companyabout{
+  line-height: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer-companyabout span{
+  display: block;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-icons{
+  margin-top: 25px;
+}
+.footer-icons a{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-color:black ;
+  border-radius: 5px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-icons a:hover{
+  background-color: rgb(181, 179, 179);
+}
+
+  
+  
+  

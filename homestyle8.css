@@ -1,0 +1,745 @@
+
+   
+
+
+* {
+    padding: 9;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+nav {
+    background-color:#29293e;
+    height: 98px;
+    width: 100%;
+    padding: 4px;
+    
+    
+}
+.image1 {
+    object-fit: cover;
+    border-radius: 20px;
+    float: left;
+    margin: 10px;
+    
+}
+.image1:hover{
+    box-shadow: 0px 2px 10px 0 black;
+}
+
+
+nav ul {
+    float: right;
+    margin-right: 1px;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color:#29293e ;
+    border-radius: 0px 0px 10px 10px;
+
+  }
+   nav ul li ul li a{
+    padding: 5px 25px;
+    margin-left: -60%;
+    
+  
+  }
+  nav ul li:hover ul{
+      display: block;
+      margin: 1px;
+  }
+  nav ul li ul li{
+
+    line-height: 1;
+    width: 90px;
+    border-radius: 5px;
+    padding: 12px;
+    display: block;
+    
+  }
+ 
+
+  nav ul li ul li a:hover{
+    background-color: #34a851;
+  }
+   nav ul li a:hover{
+    background-color: #34a851;
+  }
+
+    
+  a.active9,a:hover{
+      background: #49cf6a;
+      transition: 0.3s;
+  }
+
+  
+body {
+    background-color: rgb(163, 205, 209);
+    
+}
+
+/*Cards*/
+
+.cardheading1 {
+    margin-top: -1%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    background-color: #51c672;
+    border-radius: 0 0 20px 20px;
+   
+  
+}
+
+
+
+
+.card1 {
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    margin: 1%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 5px 0 black;
+  }
+  .pic1{
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .card1:hover {
+    box-shadow: 0px 5px 20px 0 rgb(0, 0, 0);
+  }
+
+  
+
+
+.card2 {
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    margin-right: 17%;
+    margin-top: -20%;
+    float:right;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 5px 0 black;
+  }
+  .pic2{
+    border-radius: 20px 20px 0 0;
+  }
+  
+  
+  .card2:hover {
+    box-shadow: 0px 5px 20px 0 rgb(0, 0, 0);
+  }
+
+
+
+  .card3 {
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    float: right;
+    margin-left: 7%;
+    margin-top: -20%;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 5px 0 black;
+  }
+  .pic3{
+    border-radius: 20px 20px 0 0;
+  }
+  
+  
+  .card3:hover {
+    box-shadow: 0px 5px 20px 0 rgb(0, 0, 0);
+  }
+
+  
+  .card4 {
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 1%;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 5px 0 black;
+  }
+  .pic4{
+    border-radius: 20px 20px 0 0;
+  }
+  
+  
+  .card4:hover {
+    box-shadow: 0px 5px 20px 0 rgb(0, 0, 0);
+  }
+
+
+  .card5 {
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 5px 0 black;
+  }
+  .pic5{
+    border-radius: 20px 20px 0 0;
+  }
+  
+  
+  .card5:hover {
+    box-shadow: 0px 5px 20px 0 rgb(0, 0, 0);
+  }
+
+  .card6 {
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    float: right;
+    margin-left: 2.5%;
+    margin-top: -19.5%;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 5px 0 black;
+  }
+  .pic6{
+    border-radius: 20px 20px 0 0;
+  }
+  
+  
+  .card6:hover {
+    box-shadow: 0px 5px 20px 0 rgb(0, 0, 0);
+  }
+
+  
+
+
+
+
+ /*Purchase form*/
+
+.wrapper2{
+    background-color: #29293e;
+    width: 500px;
+    float: right;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 15px;
+}
+
+.wrapper2 h2{
+    background-color: #29293e;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted white;
+}
+
+h4 {
+    padding-bottom: 5px;
+    color: white;
+}
+
+.input-group1{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input-box:last-child{
+    margin-right: 0;
+}
+
+.name{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    color: black;
+}
+
+.name:focus, .dob:focus{
+    -webkit-box-shadow: 0 0 2px 1px #34a851;
+    -moz-box-shadow: 0 0 2px 1px #34a851;
+    box-shadow: 0 0 2px 1px #34a851;
+    border: 1px solid #34a851;
+
+}
+
+.dob {
+    width: 30%;
+    padding: 14px;
+    text-align: center;
+    background-color: white;
+    transition: 0.3s;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+.radio {
+    display: none;
+}
+
+.input-box label{
+    width: 50%;
+    padding: 13px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.input-box label:first-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+}
+
+.input-box label:last-of-type{
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+}
+
+.radio:checked + label{
+    background-color: #49cf6a;
+    color: black;
+    transition: 0.3s;
+}
+.radio:hover label{
+    background: #34a851;
+}
+
+.input-box select{
+    display: inline-block;
+    width: 50%;
+    padding: 12px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.input-box select:focus{
+    background-color: rgb(111, 112, 108);
+    color: white;
+    text-align: center;
+
+}
+
+button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    background: #49cf6a;
+    color: black;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #34a851;
+}
+
+
+
+
+/*Section1*/
+
+.heading1{
+    float: left;
+    margin-top: 15%;
+    margin-left: 7%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+p{
+float: left;
+margin-left: -36.8%;
+font-size: 16px;
+margin-top: 19%;
+font-family: sans-serif;
+width: 45%;
+}
+
+
+
+.heading2 {
+   margin-left: -45%;
+   margin-top: 28%;
+   font-size: 24px;
+   float: left;
+}
+
+.circlelist1, ul li{
+    list-style-type:circle;
+    font-family: sans-serif;
+    margin-left: 2%;
+    margin-top: 4%;
+ 
+    font-size: 16px;
+    float: left;
+}
+
+.point1{
+    margin-bottom: 11%;
+}
+
+.point2{
+    margin-top: -10%;
+}
+
+.point3{
+    float: left;
+    margin-top: -7.5%;
+    margin-left: 2%;
+}
+.point4{
+    margin-top: -5%;
+}
+
+
+
+/* Donate Form1*/
+
+.wrapper1{
+    background-color: #29293e;
+    width: 500px;
+    float: right;
+    padding: 25px;
+    margin: 25px;
+    margin-top: -30%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 15px;
+}
+
+.wrapper1 h2{
+    background-color: #29293e;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted white;
+}
+
+h4 {
+    padding-bottom: 5px;
+    color: white;
+}
+
+.input-group1{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input-box1{
+    width: 50%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input-box1:last-child{
+    margin-right: 0;
+}
+
+.name1{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    color: black;
+}
+
+.name1:focus, :focus{
+    -webkit-box-shadow: 0 0 2px 1px #34a851;
+    -moz-box-shadow: 0 0 2px 1px #34a851;
+    box-shadow: 0 0 2px 1px #34a851;
+    border: 1px solid #34a851;
+
+}
+
+
+
+.radio1 {
+    display: none;
+}  
+
+.input-box1 label{
+    width: 100%;
+    padding: 13px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.input-box1 label:first-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+}
+
+.input-box1 label:last-of-type{
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+}
+
+.radio1:checked + label{
+    background-color: #49cf6a;
+    color: black;
+    transition: 0.3s;
+}
+.radio1:hover label{
+    background: #34a851;
+}
+
+.input-box1 select{
+    display: inline-block;
+    width: 50%;
+    padding: 12px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.input-box1 select:focus{
+    background-color: rgb(111, 112, 108);
+    color: white;
+    text-align: center;
+
+}
+
+button{
+    width: 200%;
+    background: transparent;
+    border: none;
+    background: #49cf6a;
+    color: black;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #34a851;
+}
+
+
+
+
+
+/*Jump to top*/
+.top{
+    border: 3px solid black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 25%;
+    margin-bottom: 3%;
+    margin-right: -35%;
+}
+a.top:hover {
+    background-color: white;
+    box-shadow: 0 2px 7px 0 black;
+}
+
+/*Footer*/
+
+footer{
+    position:relative;
+    bottom: 0;
+   
+  
+  }
+  
+  
+  
+  .footer1{
+    background-color:#29293e;
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px;
+    padding: 50px 50px 60px 50px;
+    margin-top: 100%;
+  
+  
+  }
+  .footer-left,.footer-center,.footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .footer-left{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -10%;
+    color: white;
+  }
+  .footer-left h3 span {
+    font-size: 16.5px;
+    margin: 0;
+    color: #49cf6a;
+  }
+  .footer-left h3{
+    font-size: 16.5px;
+  }
+  
+  .footer-companyname{
+    color: white;
+    font-size: 14px;
+  font-weight: normal;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: -7%;
+  }
+  .footer-center{
+    width: auto;
+    margin-left:9%;
+    float: left;
+  }
+  .footer-center svg{
+    background-color:black ;
+    color: white;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  .footer-center svg.xmlns{
+    font-size: 16px;
+    line-height: 38px;
+  }
+  .footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+  }
+  .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:2 ;
+  
+  }
+  .footer-center p a{
+    color:lightblue;
+    text-decoration: none;  
+  }
+  .footer-right{
+    width: 30%;
+    margin-left:11%;
+   margin-bottom: -20%;
+  }
+  
+  .footer-companyabout{
+    line-height: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  .footer-companyabout span{
+    display: block;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .footer-icons{
+    margin-top: 25px;
+  }
+  .footer-icons a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color:black ;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  .footer-icons a:hover{
+    background-color: rgb(181, 179, 179);
+  }
+  
+
+
