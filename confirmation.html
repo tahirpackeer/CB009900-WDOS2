@@ -1,132 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="/confirmation.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="confirmation.css" />
     <title>Confirmation Pafe</title>
-</head>
-<body>
+  </head>
+  <body>
     <!----Navigation bar with burger nav bar-->
     <nav>
-        <h1 class="main-heading">BUY TICKETS</h1>
-  
-        <label for="check">
-          <div class="checkbtn">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="currentColor"
-                d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
-              />
-            </svg>
-          </div>
-        </label>
-        <a href="index.html">
-          <img
-            class="image1"
-            src="images/logo1.JPG"
-            alt="webpage logo"
-            width="80"
-            height="80"
-          />
-        </a>
-  
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="tickets.html">Tickets</a></li>
-          <li><a href="details.html">Details</a></li>
-          <li><a href="payment.html">Payment page</a></li>
-          <li><a class="active" href="confirmation.html">Payment confirmation</a></li>
-        </ul>
-      </nav><br>
+      <h1 class="main-heading">BUY TICKETS</h1>
 
-      <h2>Confirmation</h2><br>
-      <p>Thank you for your order. Your order has been confirmed with us. You can show this confirmation at the entrance. Following is the summary of your order.</p>
+      <label for="check">
+        <div class="checkbtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+            />
+          </svg>
+        </div>
+      </label>
+      <a href="index.html">
+        <img
+          class="image1"
+          src="images/logo1.JPG"
+          alt="webpage logo"
+          width="80"
+          height="80"
+        />
+      </a>
 
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="payment.html">Payment page</a></li>
+        <li>
+          <a class="active" href="confirmation.html">Payment confirmation</a>
+        </li>
+      </ul>
+    </nav>
+    <br />
 
-      <table border="1" id="sumtabl">
-        <tr>
-          <th>Name</th>
-          <td><div id="Name"></div></td>
-        </tr>
-        <tr>
-            <th>Date</th>
-            <td><div id="currdate"></div> </td>
-        </tr>
-        <tr>
-            <th>Time</th>
-            <td>
-                <div id="s1"></div>
-                <div id="s2"></div>
-                <div id="s3"></div>
-                <div id="s4"></div>
-                <div id="s5"></div>
-                <div id="s6"></div>
-                <div id="s7"></div>
-                <div id="s8"></div>
-                <div id="s9"></div>
-                <div id="s10"></div>
-                <div id="s11"></div>
-            </td>
-        </tr>
-        <tr>
-            <th>Duration</th>
-            <td>
-                <div id="d1"></div>
-                <div id="d2"></div>
-            </td>
-        </tr>
-        <tr>
-          <th>Mobile</th>
-          <td>
-            <div id="mobile"></div>
-          </td>
-        </tr>
-        <tr>
-          <th>Email</th>
-          <td>
-            <div id="email"></div>
-          </td>
-        </tr>
-        <tr>
-          <th>Gender</th>
-          <td><div id="gender"></div></td>
-        </tr>
-        <tr class="Guss">
-            <th>Tickets</th>
-            <th>Charges</th>
-        </tr>
-        <tr>
-            <th>SL Adults</th>
-            <td><div id="slAD1"></div></td>
-        </tr>
-        <tr>
-            <th>SL Children</th>
-            <td><div id="slCH1"></div></td>
-        </tr>
-        <tr>
-            <th>Foreigner Adults</th>
-            <td><div id="foAD1"></div></td>
-        </tr>
-        <tr>
-            <th>Foreigner Children</th>
-            <td><div id="foCH1"></div></td>
-        </tr>
-        <tr>
-            <th>Infants</th>
-            <td><div id="inf1"></div></td>
-        </tr>
-        <tr class="tp">
-            <th>Total Payable</th>
-            <td><div id="total"></div></td>
-        </tr>
-      </table><br><br><br>
+    <h2>Confirmation</h2>
+    <br />
+    <p>
+      Thank you for your order. Your order has been confirmed with us. You can
+      show this confirmation at the entrance. Following is the summary of your
+      order.
+    </p>
 
-      <script src="confirmation.js"></script>
-</body>
+    <table border="1" id="sumtabl">
+      <tr>
+        <th>Name</th>
+        <td><div id="Name"></div></td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <td><div id="currdate"></div></td>
+      </tr>
+      <tr>
+        <th>Time</th>
+        <td>
+          <div id="s1"></div>
+          <div id="s2"></div>
+          <div id="s3"></div>
+          <div id="s4"></div>
+          <div id="s5"></div>
+          <div id="s6"></div>
+          <div id="s7"></div>
+          <div id="s8"></div>
+          <div id="s9"></div>
+          <div id="s10"></div>
+          <div id="s11"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Duration</th>
+        <td>
+          <div id="d1"></div>
+          <div id="d2"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Mobile</th>
+        <td>
+          <div id="mobile"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>
+          <div id="email"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td><div id="gender"></div></td>
+      </tr>
+      <tr class="Guss">
+        <th>Tickets</th>
+        <th>Charges</th>
+      </tr>
+      <tr>
+        <th>SL Adults</th>
+        <td><div id="slAD1"></div></td>
+      </tr>
+      <tr>
+        <th>SL Children</th>
+        <td><div id="slCH1"></div></td>
+      </tr>
+      <tr>
+        <th>Foreigner Adults</th>
+        <td><div id="foAD1"></div></td>
+      </tr>
+      <tr>
+        <th>Foreigner Children</th>
+        <td><div id="foCH1"></div></td>
+      </tr>
+      <tr>
+        <th>Infants</th>
+        <td><div id="inf1"></div></td>
+      </tr>
+      <tr class="tp">
+        <th>Total Payable</th>
+        <td><div id="total"></div></td>
+      </tr>
+    </table>
+    <br /><br /><br />
+
+    <script src="confirmation.js"></script>
+  </body>
 </html>
