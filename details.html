@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Details Page</title>
+    <link rel="stylesheet" href="CSS-details.css" />
+    <link rel="stylesheet" href="international-telephone-input.css" />
+  </head>
+  <body>
+    <!----Navigation bar with burger nav bar-->
+    <nav>
+      <h1 class="main-heading">BUY TICKETS</h1>
+
+      <label for="check">
+        <div class="checkbtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+            />
+          </svg>
+        </div>
+      </label>
+      <a href="index.html">
+        <img
+          class="image1"
+          src="images/logo1.JPG"
+          alt="webpage logo"
+          width="80"
+          height="80"
+        />
+      </a>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a class="active" href="details.html">Details</a></li>
+        <li><a href="payment.html" id="paymentlink">Payment page</a></li>
+        <li>
+          <a href="confirmation.html" id="confirmationlink"
+            >Payment confirmation</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="wrapper2">
+      <form method="POST" id="detailsForm">
+        <h4>Enter your details:</h4>
+        <br />
+        <div>
+          <label for="fullName">Full Name: </label><br /><br />
+          <input type="text" id="fullName" name="fullname" />
+          <div
+            class="error-message"
+            id="fullNameError"
+            style="color: red"
+          ></div>
+
+          <br />
+
+          <label for="telephone">Mobile Number: </label>
+          <style>
+            .iti {
+              position: relative;
+              display: inline-block;
+            }
+
+            input[type="tel"] {
+              padding-right: 6px;
+              padding-left: 52px;
+              margin-left: 0;
+
+              position: relative;
+              z-index: 0;
+              margin-top: 0 !important;
+              margin-bottom: 0 !important;
+              margin-right: 0;
+              border: 1px solid #ccc;
+              width: 270px;
+              height: 35px;
+              /* padding: 6px 12px; */
+              border-radius: 2px;
+              font-family: inherit;
+              font-size: 100%;
+              color: inherit;
+            }
+          </style>
+          <div class="tel">
+            <input type="tel" id="phoneNumber" name="phoneNumber" required />
+            <div
+              class="error-message"
+              id="mobileNumberError"
+              style="color: red"
+            ></div>
+          </div>
+          <br /><br>
+          <div>
+            <label for="Email">Email:</label>
+          
+            <br /><br>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <span id="errortext"></span>
+          </div>
+          <br />
+
+          <label for="confirmEmail">Confirm Email: </label><br /><br />
+          <input
+            type="text"
+            name="confirmEmail"
+            id="confirmEmail"
+            required
+          /><br /><br />
+          <div
+            class="error-message"
+            id="confirmEmailError"
+            style="color: red"
+          ></div>
+          <br />
+
+          <div class="input-box1">
+            <div class="duration">
+              <label for="Gender">Gender: </label><br /><br />
+              <select id="genderSelect">
+                <option value="">Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+
+        <div>
+          <div>
+            <a href="payment.html">
+              <button type="button" id="purchaseButton">
+                Continue with purchase
+              </button></a
+            >
+          </div>
+        </div>
+        <br /><br />
+      </form>
+    </div>
+
+    <table border="1" id="sumtabl">
+      <tr>
+        <th>Name</th>
+        <td id="nam"><div id="Name"></div></td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <td id="date"><div id="currdate"></div></td>
+      </tr>
+      <tr>
+        <th>Time</th>
+        <td><div id="t1"></div></td>
+      </tr>
+      <tr id="row1">
+        <th>Duration</th>
+        <td id="duration">
+          <div id="d1"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Mobile</th>
+        <td id="mob">
+          <div id="mobile"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td id="ema">
+          <div id="email"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td id="gen"><div id="gender"></div></td>
+      </tr>
+      <tr class="Guss">
+        <th>Tickets</th>
+        <th>Charges</th>
+      </tr>
+      <tr>
+        <th>SL Adults</th>
+        <td id="SLAD"><div id="slAD1"></div></td>
+      </tr>
+      <tr>
+        <th>SL Children</th>
+        <td id="SLCH"><div id="slCH1"></div></td>
+      </tr>
+      <tr>
+        <th>Foreigner Adults</th>
+        <td id="FA"><div id="foAD1"></div></td>
+      </tr>
+      <tr>
+        <th>Foreigner Children</th>
+        <td id="FCH"><div id="foCH1"></div></td>
+      </tr>
+      <tr>
+        <th>Infants</th>
+        <td id="infant"><div id="inf1"></div></td>
+      </tr>
+      <tr class="tp">
+        <th>Total Payable</th>
+        <td id="tot"><div id="total"></div></td>
+      </tr>
+    </table>
+    <br />
+
+    <script src="international-telephone-input.js"></script>
+    <script src="javascript2.js"></script>
+    <script src="local.js"></script>
+  </body>
+</html>

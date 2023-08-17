@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="CSS-payment.css" />
+    <title>Payment Page</title>
+  </head>
+  <body>
+    <!----Navigation bar with burger nav bar-->
+    <nav>
+      <h1 class="main-heading">BUY TICKETS</h1>
+
+      <label for="check">
+        <div class="checkbtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M3 8h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"
+            />
+          </svg>
+        </div>
+      </label>
+      <a href="index.html">
+        <img
+          class="image1"
+          src="images/logo1.JPG"
+          alt="webpage logo"
+          width="80"
+          height="80"
+        />
+      </a>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a class="active" href="payment.html">Payment page</a></li>
+        <li>
+          <a href="confirmation.html" id="confirmationlink"
+            >Payment confirmation</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper2">
+      <h2>Form Validation</h2>
+      <br />
+      <form id="registrationForm">
+        <div class="form-group">
+          <label for="fullName">Card Number: </label>
+          <input type="text" id="cardNumber" name="cardNumber" required />
+          <div
+            class="error-message"
+            id="cardNumberError"
+            style="color: red"
+          ></div>
+        </div>
+
+        <div class="form-group">
+          <label for="expiryDate">Expiry Date (MM/YY):</label>
+          <input type="text" id="expiryDate" name="expiryDate" required />
+          <div
+            class="error-message"
+            id="expiryDateError"
+            style="color: red"
+          ></div>
+        </div>
+
+        <div class="form-group">
+          <label for="cvc">CVC/CVV:</label>
+          <input type="text" id="cvc" name="cvc" required />
+          <div class="error-message" id="cvcError" style="color: red"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="cardName">Name on card:</label>
+          <input type="text" id="cardName" name="cardName" required />
+        </div>
+
+        <a href="confirmation.html">
+          <button type="button" id="purchaseButton" disabled>PAY</button></a
+        >
+      </form>
+
+      <!-- <form method="POST" id="detailsForm">
+          <h4>Enter your details:</h4>
+          <br />
+          <div id="fName">
+            <label for="Name"> </label><br><br>
+            <input type="text" id="Name" name="name" />
+            <br /><br>
+      
+            <label for="telephone">Mobile Number: </label>
+            <style>
+              
+              .iti {
+                  position: relative;
+                  display: inline-block;
+              }
+              
+              input[type=tel] {
+                  padding-right: 6px;
+                  padding-left: 52px;
+                  margin-left: 0;
+  
+                  position: relative;
+                  z-index: 0;
+                  margin-top: 0 !important;
+                  margin-bottom: 0 !important;
+                  margin-right: 0;
+                  border: 1px solid #CCC;
+                  width: 270px;
+                  height: 35px;
+                  /* padding: 6px 12px; */
+                  border-radius: 2px;
+                  font-family: inherit;
+                  font-size: 100%;
+                  color: inherit;
+              }
+              
+            </style>
+            <div class="tel">
+              <input type="tel" name="phone" required/>
+            </div>
+            <br>
+      
+            <div>
+              <label for="Email">Email: </label><br><br>
+              <input type="email" name="email" id="email" required/>
+            </div>
+            <br />
+      
+            <label for="confirmEmail">Confirm Email: </label><br><br>
+            <input type="text" name="confirmEmail" id="confirmEmail" required /><br><br>
+      
+            <div class="input-box1">
+              <div class="duration">
+                <label for="Gender">Gender: </label><br><br>
+                <select id="genderSelect">
+                  <option value="">Select your gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </form>  -->
+    </div>
+
+    <table border="1" id="sumtabl">
+      <tr>
+        <th>Name</th>
+        <td><div id="Name"></div></td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <td><div id="currdate"></div></td>
+      </tr>
+      <tr>
+        <th>Time</th>
+        <td>
+          <div id="s1"></div>
+          <div id="s2"></div>
+          <div id="s3"></div>
+          <div id="s4"></div>
+          <div id="s5"></div>
+          <div id="s6"></div>
+          <div id="s7"></div>
+          <div id="s8"></div>
+          <div id="s9"></div>
+          <div id="s10"></div>
+          <div id="s11"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Duration</th>
+        <td>
+          <div id="d1"></div>
+          <div id="d2"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Mobile</th>
+        <td>
+          <div id="mobile"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>
+          <div id="email"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td><div id="gender"></div></td>
+      </tr>
+      <tr class="Guss">
+        <th>Tickets</th>
+        <th>Charges</th>
+      </tr>
+      <tr>
+        <th>SL Adults</th>
+        <td><div id="slAD1"></div></td>
+      </tr>
+      <tr>
+        <th>SL Children</th>
+        <td><div id="slCH1"></div></td>
+      </tr>
+      <tr>
+        <th>Foreigner Adults</th>
+        <td><div id="foAD1"></div></td>
+      </tr>
+      <tr>
+        <th>Foreigner Children</th>
+        <td><div id="foCH1"></div></td>
+      </tr>
+      <tr>
+        <th>Infants</th>
+        <td><div id="inf1"></div></td>
+      </tr>
+      <tr class="tp">
+        <th>Total Payable</th>
+        <td><div id="total"></div></td>
+      </tr>
+    </table>
+    <br />
+
+    <script src="javascript3.js"></script>
+    <script src="local2.js"></script>
+  </body>
+</html>
